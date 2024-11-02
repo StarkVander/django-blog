@@ -23,10 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-2@fx#v(8r_&m&4lbw%ersr_w26dt3czf1(+oiy&g4sm9)x)!0j"
 
 # SECURITY WARNING: don't run with debug turned on in production!
+#DEBUG = False
 DEBUG = True
 
+#ALLOWED_HOSTS = ['*']
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -63,6 +64,7 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+                "blogs.context_processors.get_categories",
             ],
         },
     },
