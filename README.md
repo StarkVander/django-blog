@@ -73,13 +73,13 @@ Os principais commits indicam as seguintes mudanças:
    git clone <URL-do-repositório>
    cd django-blog
 
-2. **Instalação de Dependências::**
+2. **Instalação de Dependências:**
 - Utilize o arquivo requirements.txt para instalar todas as dependências do projeto. Execute o comando abaixo:
 - pip install -r requirements.txt
 
-3. **Aplicar migrações do banco de dados:**
+3. #### **Aplicar migrações do banco de dados:**
    
-4. Aplicar migrações do banco de dados:
+4. #### Aplicar migrações do banco de dados:
 - python manage.py migrate
 
 5. **Criar um superusuário (opcional):**
