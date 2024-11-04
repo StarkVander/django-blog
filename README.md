@@ -77,15 +77,15 @@ Os principais commits indicam as seguintes mudanças:
 - Utilize o arquivo requirements.txt para instalar todas as dependências do projeto. Execute o comando abaixo:
 - pip install -r requirements.txt
 
-3. #### **Aplicar migrações do banco de dados:**
+## **Aplicar migrações do banco de dados:**
    
-4. #### Aplicar migrações do banco de dados:
+3. #### Aplicar migrações do banco de dados:
 - python manage.py migrate
 
-5. **Criar um superusuário (opcional):**
+4. **Criar um superusuário (opcional):**
 - python manage.py createsuperuser
 
-6. **Iniciar o servidor de desenvolvimento:**
+5. **Iniciar o servidor de desenvolvimento:**
 - python manage.py runserver
 
 **Acessar o projeto: Abra o navegador e acesse http://127.0.0.1:8000/.**
